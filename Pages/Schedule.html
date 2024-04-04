@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styling/style.css">
+    <link rel="stylesheet" href="../Styling/schedule.css">
+    <link rel="stylesheet" href="../Styling/laptop.css" media="screen and (max-width: 1064px)">
+    <link rel="stylesheet" href="../Styling/tablet.css" media="screen and (max-width: 960px)">
+    <link rel="stylesheet" href="../Styling/mobile.css" media="screen and (max-width: 548px)">
+    <title>Schedule</title>
+</head>
+
+<body>
+    <section id="Header">
+        <!-- Navigation section -->
+        <nav id="Navigation">
+            <div><a href="home.html" id="logo">
+                    <img src="../Assets/Logo.png" alt="Error" id="logoImg">
+                </a></div>
+            <ul id="unorderList">
+                <li><a href="#front" class="menu">Home</a></li>
+                <li><a href="#main" class="menu">Services</a></li>
+                <li><a href="Schedule.html " class="menu">Schedule</a></li>
+                <li><a href="#contact" class="menu">Contact</a></li>
+            </ul>
+            <form action="#">
+                <button id="signUpBtn">Sign up</button>
+            </form>
+            <div id="icon">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <!-- POP UP menu -->
+        <div class="pop-up">
+            <li class="menuList"><a href="#front" class="menuPop">Home</a></li>
+            <li class="menuList"><a href="#main" class="menuPop">Services</a></li>
+            <li class="menuList"><a href="Schedule.html" class="menuPop">Schedule</a></li>
+            <li class="menuList"><a href="#contact" class="menuPop">Contact</a></li>
+            <form action="#">
+                <button id="btnPop">Sign up</button>
+            </form>
+        </div>
+    </section>
+    <!-- Submission pop up block -->
+    <section class="hidden">
+        <div id="submission">
+            <form action="#" id="submissionForm">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+                <label for="contactNo">Contact Number</label>
+                <input type="text" name="contactNo" id="contactNo">
+                <label for="emailId">Email Id</label>
+                <input type="text" name="emailId" id="emailId">
+                <button id="booked">Reserve</button>
+            </form>
+        </div>
+    </section>
+    <!-- Flight content/Information -->
+    <section class="flight-selection">
+        <h2 id="schHead">Choose Your Flight</h2>
+        <div id="flightScheduling">
+            <div class="flight">
+                <h3>Flight 1: New York to Los Angeles</h3>
+                <p>Departure Airport: John F. Kennedy International Airport (JFK)</p>
+                <p>Destination Airport: Los Angeles International Airport (LAX)</p>
+                <p>Departure Time: 10:00 AM</p>
+                <p>Arrival Time: 1:00 PM</p>
+                <p>Airline: Example Airlines</p>
+                <p>Price: $200</p>
+                <button class="selectBtn">Select</button>
+            </div>
+            <div class="flight">
+                <h3>Flight 2: London to Paris</h3>
+                <p>Departure Airport: Heathrow Airport (LHR)</p>
+                <p>Destination Airport: Charles de Gaulle Airport (CDG)</p>
+                <p>Departure Time: 12:00 PM</p>
+                <p>Arrival Time: 3:00 PM</p>
+                <p>Airline: Example Airlines</p>
+                <p>Price: $150</p>
+                <button class="selectBtn">Select</button>
+            </div>
+            <div class="flight">
+                <h3>Flight 3: New York to Los Angeles</h3>
+                <p>Departure Airport: John F. Kennedy International Airport (JFK)</p>
+                <p>Destination Airport: Los Angeles International Airport (LAX)</p>
+                <p>Departure Time: 10:00 AM</p>
+                <p>Arrival Time: 1:00 PM</p>
+                <p>Airline: Example Airlines</p>
+                <p>Price: $200</p>
+                <button class="selectBtn">Select</button>
+            </div>
+            <div class="flight">
+                <h3>Flight 4: New York to Los Angeles</h3>
+                <p>Departure Airport: John F. Kennedy International Airport (JFK)</p>
+                <p>Destination Airport: Los Angeles International Airport (LAX)</p>
+                <p>Departure Time: 10:00 AM</p>
+                <p>Arrival Time: 1:00 PM</p>
+                <p>Airline: Example Airlines</p>
+                <p>Price: $200</p>
+                <button class="selectBtn">Select</button>
+            </div>
+        </div>
+        <!-- Add more flight options as needed -->
+    </section>
+    <script src="../Scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+.flight-selection {
+    font-family: Arial, sans-serif;
+}
+
+#flightScheduling{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#schHead {
+    text-align: center;
+    margin: 23px 0px ;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.flight {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 23px;
+    box-sizing: border-box;
+}
+
+.flight h3 {
+    margin-bottom: 10px;
+}
+
+.flight p {
+    padding-bottom: 23px;
+}
+
+.selectBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    float: right    ;
+}
+
+.selectBtn:hover {
+    background-color: #0056b3;
+}
+
+/* ``````````````````````````````````` */
+
+.hidden {
+    display: none;
+}
+
+#submission {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color:#007bff;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+#submissionForm {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#submissionForm label,input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#booked {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#booked:hover {
+    background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 650px) {
+    #flightScheduling{
+        grid-template-columns: 1fr;
+    }
+}
