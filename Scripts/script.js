@@ -5,13 +5,19 @@ toggleBtn.addEventListener('click' , function (e) {
     dropDownMenu.classList.toggle('open');
 });
 
-const selectBtn = document.querySelector('.selectBtn');
-const hiddenElement = document.querySelector('.hidden');
+// Select flight
+const selectButtons = document.querySelectorAll('.selectBtn');
+selectButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        const submissionSection = document.querySelector('.hidden');
+        submissionSection.classList.remove('hidden');
+    });
+});
+
 const bookedBtn = document.getElementById('booked');
-selectBtn.addEventListener('click' , function(e) {
-    hiddenElement.style.display = 'block';
+bookedBtn.addEventListener('click', function() {
+    const submissionSection = document.querySelector('.hidden');
+    submissionSection.classList.add('hidden');
 });
-bookedBtn.addEventListener('click', function(e) {
-    hiddenElement.style.display = 'none';
-});
+
 
