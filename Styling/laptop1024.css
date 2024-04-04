@@ -1,0 +1,25 @@
+#front {
+    display: block;
+}
+
+#mainImg {
+    display: none;
+}
+
+#front::before {
+    content: "";
+    background-image: url("../Assets/bg.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: calc(100% / 16 * 9); /* 16:9 aspect ratio */
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#intro {
+    text-align: center;
+    margin: 13rem 0;
+}

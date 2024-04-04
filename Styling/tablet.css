@@ -1,0 +1,27 @@
+.menu {
+    display: none;
+}
+
+#icon {
+    display: block;
+}
+
+.pop-up {
+    display: block;
+}
+
+#signUpBtn {
+    display: none;
+}
+
+#front::before {
+    height: 83px;
+}
+
+#intro {
+    margin: 12rem 0;
+}
+
+#logoImg {
+    width: 15%;
+}

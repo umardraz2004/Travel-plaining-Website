@@ -1,0 +1,34 @@
+#container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+#front::before {
+    height: 269px;
+}
+
+.main_heading {
+    font-size: 2rem;
+}
+
+#intro {
+    margin: 9rem 0;
+}
+
+@media screen and (max-width: 375px) {
+    #introP {
+        display: none;
+    }
+
+    #introP2 {
+        display: block;
+    }
+
+    #intro {
+        margin: 8rem 0;
+    }
+
+    #logoImg {
+        width: 15%;
+    }
+}

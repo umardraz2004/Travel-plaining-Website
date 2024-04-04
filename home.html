@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styling/style.css">
+    <link rel="stylesheet" href="../Styling/laptop1024.css" media="screen and (max-width: 1064px)">
+    <link rel="stylesheet" href="../Styling/tablet.css" media="screen and (max-width: 960px)">
+    <link rel="stylesheet" href="../Styling/mobile.css" media="screen and (max-width: 548px)">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="Header">
+        <!-- Navigation section -->
+        <nav id="Navigation">
+            <div><a href="home.html" id="logo">
+                    <img src="../Assets/Logo.png" alt="Error" id="logoImg">
+                </a></div>
+            <ul id="unorderList">
+                <li><a href="#front" class="menu">Home</a></li>
+                <li><a href="#main" class="menu">Services</a></li>
+                <li><a href="price.html" class="menu">Prices</a></li>
+                <li><a href="#contact" class="menu">Contact</a></li>
+            </ul>
+            <form action="#">
+                <button id="signUpBtn">Sign up</button>
+            </form>
+            <div id="icon">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <!-- POP UP menu -->
+        <div class="pop-up">
+            <li class="menuList"><a href="#front" class="menuPop">Home</a></li>
+            <li class="menuList"><a href="#main" class="menuPop">Services</a></li>
+            <li class="menuList"><a href="price.html" class="menuPop">Prices</a></li>
+            <li class="menuList"><a href="#contact" class="menuPop">Contact</a></li>
+            <form action="#">
+                <button id="btnPop">Sign up</button>
+            </form>
+        </div>
+        <!-- Welcome to TRAVPLAIN section -->
+        <section id="front">
+            <div id="intro">
+                <h2 id="introH2">Welcome to TRAVPLAIN!</h2>
+                <p id="introP">
+                    Discover seamless travel with TRAVPLAIN. Tailored itineraries, hassle-free booking, and expert
+                    guidance ensure each journey fits your preferences. Explore confidently with round-the-clock
+                    support. Welcome to TRAVPLAIN, where every trip is an adventure waiting to unfold.</p>
+                    <p id="introP2">
+                        Experience seamless travel with TRAVPLAIN: personalized itineraries, hassle-free booking, expert guidance, and 24/7 support, making every journey an adventure.
+                    </p>
+            </div>
+            <div id="image">
+                <img src="../Assets/main.jpg" alt="" id="mainImg">
+            </div>
+        </section>
+    </section>
+    <!-- ``````````````````Header section ends here and main starts now````````````````` -->
+    <section id="main">
+        <h1 class="main_heading">Services</h1>
+        <div id="container">
+            <div class="service">
+                <h2 class="serH2">Booking Assistance</h2>
+                <p class="serP">Our user-friendly website and dedicated customer support team are here to assist you in
+                    booking your flight hassle-free. Whether you're planning a solo adventure or a family vacation,
+                    we're here to make the booking process smooth and efficient.</p>
+            </div>
+            <div class="service">
+                <h2 class="serH2">Comfortable Travel</h2>
+                <p class="serP">Step aboard our modern and spacious aircraft, where comfort meets convenience. Enjoy
+                    ample legroom, comfortable seating, and attentive service from our friendly cabin crew throughout
+                    your journey.</p>
+            </div>
+            <div class="service">
+                <h2 class="serH2">In-flight Entertainment</h2>
+                <p class="serP">Sit back, relax, and enjoy a wide selection of movies, TV shows, music, and games
+                    available on our in-flight entertainment system. Whether you prefer to unwind with a movie or stay
+                    connected with the latest news, there's something for everyone to enjoy.</p>
+            </div>
+            <div class="service">
+                <h2 class="serH2">On-time Arrival</h2>
+                <p class="serP">We understand the importance of punctuality, which is why we strive to ensure that your
+                    flight arrives at its destination on time, every time. Count on us to get you to your destination
+                    safely and efficiently, so you can make the most of your travel experience.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="contact">
+            <h2 class="main_heading">Contact</h2>
+            <form action="#" id="contact_form">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="sameInput" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="sameInput" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="6" placeholder="Enter your message"
+                    required></textarea>
+                <button type="submit" id="subBtn">Submit</button>
+            </form>
+        </section>
+        <section id="foot">
+            <div class="info">All right reserved &copy;</div>
+        </section>
+    </footer>
+
+    <script src="../Scripts/script.js"></script>
+</body>
+
+</html>

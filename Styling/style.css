@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 32px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0px 1px 8px 0px grey;
+}
+
+
+#logoImg {
+    width: 12%;
+}
+
+ul {
+    display: flex;
+}
+
+.menu {
+    padding-right: 23px;
+    color: blue;
+}
+
+#signUpBtn {
+    border: 1px solid blue;
+    color: blue;
+    background-color: transparent;
+    padding: 5px;
+}
+
+#signUpBtn:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.547);
+}
+
+/* ``````Pop Up Menu */
+
+#icon {
+    display: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.pop-up {
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.pop-up.open {
+    height: 300px;
+}
+
+.menuPop {
+    font-weight: bold;
+    color: blue;
+}
+
+.menuList {
+    padding: 20px;
+}
+
+#btnPop {
+    border: 1px solid blue;
+    border-radius: 12px;
+    width: 90%;
+    color: blue;
+    background-color: transparent;
+    padding: 5px;
+}
+
+#btnPop:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.547);
+}
+
+/* ````````````````````````` */
+
+#front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 23px;
+}
+
+#intro {
+    padding: 0px 70px;
+}
+
+#introH2 {
+    padding-bottom: 10px;
+}
+
+#mainImg {
+    height: 25em;
+    padding-right: 23px;
+}
+
+#introP2 {
+    display: none;
+}
+
+/* ```````````````services css```````````````````` */
+
+#main {
+    margin: 5rem 0rem;    
+}
+
+.main_heading {
+    color: blue;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.service {
+    border-radius: 7px;
+    padding: 1em;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0px 0px 6px 0px;
+}
+
+.serH2 {
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+/* ```````````````footer contact css`````````````````````` */
+
+#contact {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#contact_form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.sameInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#message {
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#subBtn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#subBtn:hover {
+    background-color: #45a049;
+}
+
+/*```````````````````````````````````````` */
+
+#foot {
+    background-color: orange;
+}
+
+.info {
+    text-align: center;
+    padding: 5px 0px;
+}
+
