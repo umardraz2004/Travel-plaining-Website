@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styling/style.css">
+    <link rel="stylesheet" href="../Styling/laptop.css" media="screen and (max-width: 1064px)">
+    <link rel="stylesheet" href="../Styling/tablet.css" media="screen and (max-width: 960px)">
+    <link rel="stylesheet" href="../Styling/mobile.css" media="screen and (max-width: 548px)">
+    <link rel="stylesheet" href="../Styling/signupstyle.css">
+    <title>Signup Form</title>
+</head>
+
+<body>
+    <section id="Header">
+        <!-- Navigation section -->
+        <nav id="Navigation">
+            <div><a href="home.html" id="logo">
+                    <img src="../Assets/Logo.png" alt="Error" id="logoImg">
+                </a></div>
+            <ul id="unorderList">
+                <li><a href="home.html#front" class="menu">Home</a></li>
+                <li><a href="home.html#main" class="menu">Services</a></li>
+                <li><a href="Schedule.html " class="menu">Schedule</a></li>
+                <li><a href="home.html#contact" class="menu">Contact</a></li>
+            </ul>
+            <form action="signup.html">
+                <button id="signUpBtn">Sign up</button>
+            </form>
+            <div id="icon">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <!-- POP UP menu -->
+        <div class="pop-up">
+            <li class="menuList"><a href="home.html#front" class="menuPop">Home</a></li>
+            <li class="menuList"><a href="home.html#main" class="menuPop">Services</a></li>
+            <li class="menuList"><a href="Schedule.html" class="menuPop">Schedule</a></li>
+            <li class="menuList"><a href="home.html#contact" class="menuPop">Contact</a></li>
+            <form action="signup.html">
+                <button id="btnPop">Sign up</button>
+            </form>
+        </div>
+    </section>
+    <section id="signUpForm">
+        <div id="joined">
+            <form action="#" id="joinForm">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button id="joinBtn">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    <script src="../Scripts/script.js"></script>
+</body>
+
+</html>
