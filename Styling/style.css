@@ -22,13 +22,27 @@
     width: 12%;
 }
 
-ul {
+#unOrderList {
     display: flex;
 }
 
 .menu {
-    padding-right: 23px;
     color: #007bff;
+    padding-right: 23px;
+}
+
+#unOrderList li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: #007bff;
+    transition: 0.5s;
+}
+
+#unOrderList li:hover::after {
+    width: 75%;
+
 }
 
 #signUpBtn {
@@ -69,6 +83,7 @@ ul {
 
 .pop-up.open {
     height: 300px;
+    z-index: 999;
 }
 
 .menuPop {
@@ -81,17 +96,17 @@ ul {
 }
 
 #btnPop {
-    border: 1px solid blue;
+    border: none;
     border-radius: 12px;
     width: 90%;
-    color: blue;
-    background-color: transparent;
-    padding: 5px;
+    color: white;
+    background-color: #007bff;
+    padding: 8px;
+    cursor: pointer;
 }
 
 #btnPop:hover {
-    cursor: pointer;
-    color: rgba(0, 0, 255, 0.547);
+    color: #0056b3;
 }
 
 /* ````````````````````````` */
