@@ -27,7 +27,7 @@
 
 #joinForm input {
     font-size: 2rem;
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
     margin-bottom: 8px;
 }
@@ -45,3 +45,14 @@
 #joinBtn:hover {
     background-color: #0056b3;
 }   
+
+@media screen and (max-width: 565px) {
+    #joinForm input {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    #joinForm {
+        padding: 32px;
+    }
+}
