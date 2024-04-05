@@ -19,6 +19,7 @@
     background-color: lightgrey;
     padding: 50px;
     border-radius: 12px;
+    z-index: -1;
 }
 
 #joinForm label {
