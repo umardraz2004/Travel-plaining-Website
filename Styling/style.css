@@ -42,7 +42,6 @@
 
 #unOrderList li:hover::after {
     width: 75%;
-
 }
 
 #signUpBtn {
@@ -57,7 +56,20 @@
     background-color: #0056b3;
 }
 
-/* ``````Pop Up Menu */
+#signInBtn {
+    font-weight: bolder;
+    border: none;
+    background-color: transparent;
+    color: #007bff;
+    padding: 8px;
+}
+
+#signInBtn:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* ````````````````Pop Up Menu ````````````````*/
 
 #icon {
     display: none;
@@ -79,6 +91,7 @@
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.3s ease;
+    z-index: 1;
 }
 
 .pop-up.open {
@@ -188,6 +201,8 @@ label {
     display: block;
     text-align: left;
     margin-bottom: 5px;
+    color: #007bff;
+    font-weight: bold;
 }
 
 .sameInput {
