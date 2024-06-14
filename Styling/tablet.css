@@ -10,6 +10,10 @@
     display: block;
 }
 
+.pop-up.open {
+    height: 288px;
+}
+
 #signInBtn {
     display: none;
 }
