@@ -96,13 +96,13 @@
 }
 
 .pop-up.open {
-    height: 328px;
+    height: 320px;
     z-index: 1;
 }
 
 .menuPop {
     font-weight: bold;
-    color: blue;
+    color: #007bff;
 }
 
 .menuList {
@@ -117,10 +117,11 @@
     background-color: #007bff;
     padding: 8px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 #btnPop:hover {
-    color: #0056b3;
+    background-color: #0056b3;
 }
 
 #btnPop2 {
@@ -250,8 +251,10 @@ label {
     width: 100%;
     background-color: #007bff;
     color: white;
-    padding: 12px 20px;
+    padding: 8px 20px;
     border: none;
+    font-weight: bold;
+    font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;

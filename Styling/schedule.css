@@ -38,7 +38,9 @@
     border-radius: 5px;
     padding: 8px 12px;
     cursor: pointer;
-    float: right    ;
+    float: right;
+    transition: background-color 0.3s;
+    font-weight: bold;
 }
 
 .selectBtn:hover {
